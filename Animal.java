@@ -15,46 +15,46 @@ abstract class Animal{
 class Cat extends Animal{
     @Override
     public void setName(String name){
-        this.name = name;
+        super.name = name;
     }
 
     @Override
     public void setColor(String color){
-        this.color = color;
+        super.color = color;
     }
 
     @Override
     public void setAge(int age) {
-        this.age = age;
+        super.age = age;
     }
 }
 
 class Dog extends Animal{
     @Override
     public void setName(String name){
-        this.name = name;
+        super.name = name;
     }
 
     @Override
     public void setColor(String color){
-        this.color = color;
+        super.color = color;
     }
 
     @Override
     public void setAge(int age) {
-        this.age = age;
+        super.age = age;
     }
 }
 
 class AnimalTest{
     public static void main(String[] args) {
-        Cat c = new Cat();
+        Animal c = new Cat();
         c.setName("HelloKitty");
         c.setColor("white");
         c.setAge(1);
         c.print();
 
-        Dog d = new Dog();
+        Animal d = new Dog();
         d.setName("TaiDi");
         d.setColor("yellow");
         d.setAge(1);
