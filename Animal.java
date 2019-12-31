@@ -1,4 +1,4 @@
-abstract class Animal{
+abstract class Animal {
     protected String name;
     protected String color;
     protected int age;
@@ -12,7 +12,7 @@ abstract class Animal{
      * @Date: 2019/12/31
      **/
     public abstract void setName(String name);
-    
+
     /**
      * @MethodName: setColor
      * @Description: TODO
@@ -22,7 +22,7 @@ abstract class Animal{
      * @Date: 2019/12/31
      **/
     public abstract void setColor(String color);
-    
+
     /**
      * @MethodName: setAge
      * @Description: TODO
@@ -41,12 +41,12 @@ abstract class Animal{
      * @Author: Yung
      * @Date: 2019/12/31
      **/
-    public void print(){
-        System.out.printf("姓名：%s，颜色：%s，年龄：%d\n", name,color,age);
+    public void print() {
+        System.out.printf("姓名：%s，颜色：%s，年龄：%d\n", name, color, age);
     }
 }
 
-class Cat extends Animal{
+class Cat extends Animal {
     /**
      * @MethodName: setName
      * @Description: TODO
@@ -55,7 +55,7 @@ class Cat extends Animal{
      * @Author: Yung
      * @Date: 2019/12/31
      **/
-    public void setName(String name){
+    public void setName(String name) {
         super.name = name;
     }
 
@@ -67,7 +67,7 @@ class Cat extends Animal{
      * @Author: Yung
      * @Date: 2019/12/31
      **/
-    public void setColor(String color){
+    public void setColor(String color) {
         super.color = color;
     }
 
@@ -84,7 +84,7 @@ class Cat extends Animal{
     }
 }
 
-class Dog extends Animal{
+class Dog extends Animal {
     /**
      * @MethodName: setName
      * @Description: TODO
@@ -93,7 +93,7 @@ class Dog extends Animal{
      * @Author: Yung
      * @Date: 2019/12/31
      **/
-    public void setName(String name){
+    public void setName(String name) {
         super.name = name;
     }
 
@@ -105,7 +105,7 @@ class Dog extends Animal{
      * @Author: Yung
      * @Date: 2019/12/31
      **/
-    public void setColor(String color){
+    public void setColor(String color) {
         super.color = color;
     }
 
@@ -122,7 +122,7 @@ class Dog extends Animal{
     }
 }
 
-class AnimalTest{
+class AnimalTest {
     public static void main(String[] args) {
         Animal c = new Cat();
         c.setName("HelloKitty");
