@@ -1,7 +1,7 @@
 abstract class Animal{
-    String name;
-    String color;
-    int age;
+    protected String name;
+    protected String color;
+    protected int age;
 
     public abstract void setName(String name);
     public abstract void setColor(String color);
