@@ -3,44 +3,120 @@ abstract class Animal{
     protected String color;
     protected int age;
 
+    /**
+     * @MethodName: setName
+     * @Description: TODO
+     * @Param: [name]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public abstract void setName(String name);
+    
+    /**
+     * @MethodName: setColor
+     * @Description: TODO
+     * @Param: [color]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public abstract void setColor(String color);
+    
+    /**
+     * @MethodName: setAge
+     * @Description: TODO
+     * @Param: [age]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public abstract void setAge(int age);
 
+    /**
+     * @MethodName: print
+     * @Description: TODO
+     * @Param: []
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public void print(){
         System.out.printf("姓名：%s，颜色：%s，年龄：%d\n", name,color,age);
     }
 }
 
 class Cat extends Animal{
-    @Override
+    /**
+     * @MethodName: setName
+     * @Description: TODO
+     * @Param: [name]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public void setName(String name){
         super.name = name;
     }
 
-    @Override
+    /***
+     * @MethodName: setColor
+     * @Description: TODO
+     * @Param: [color]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public void setColor(String color){
         super.color = color;
     }
 
-    @Override
+    /***
+     * @MethodName: setAge
+     * @Description: TODO
+     * @Param: [age]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public void setAge(int age) {
         super.age = age;
     }
 }
 
 class Dog extends Animal{
-    @Override
+    /**
+     * @MethodName: setName
+     * @Description: TODO
+     * @Param: [name]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public void setName(String name){
         super.name = name;
     }
 
-    @Override
+    /**
+     * @MethodName: setColor
+     * @Description: TODO
+     * @Param: [color]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public void setColor(String color){
         super.color = color;
     }
 
-    @Override
+    /**
+     * @MethodName: setAge
+     * @Description: TODO
+     * @Param: [age]
+     * @Return: void
+     * @Author: Yung
+     * @Date: 2019/12/31
+     **/
     public void setAge(int age) {
         super.age = age;
     }
