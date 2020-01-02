@@ -112,14 +112,26 @@ public class InterfaceTrain {
         cb.m2();
         cb.m3();
 
-        int[] arr = {2,3,5,1,0,8,3};
+        int[] arr = {2, 3, 5, 1, 0, 8, 3};
         java.util.Arrays.sort(arr);
 
         for (int value : arr) {
             System.out.println(value);
         }
 
-        System.out.println();
+        System.out.println("=======================");
+
+        Student[] stuArr = {
+                new Student("张三", 24),
+                new Student("李四", 55),
+                new Student("王五", 63),
+                new Student("赵六", 37),
+        };
+        java.util.Arrays.sort(stuArr);
+        for (Student value : stuArr) {
+            System.out.printf("name=%s，age=%d\n", value.name, value.age);
+        }
+
     }
 }
 
@@ -141,6 +153,24 @@ class CB extends CA implements IA, IB {
 
     public void m3() {
         System.out.println("abstract CA m3()");
+    }
+}
+
+class Student implements Comparable<Student> {
+    String name;
+    int age;
+
+    public Student() {
+
+    }
+
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public int compareTo(Student o) {
+        return Integer.compare(this.age, o.age);
     }
 }
 
