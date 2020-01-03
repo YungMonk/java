@@ -16,7 +16,7 @@ public class MysqlManager {
 
     static {
         try {
-            System.out.println("init---");
+            System.out.println("init the database.");
             Class.forName("com.mysql.cj.jdbc.Driver");
             mConnect = DriverManager.getConnection("jdbc:mysql://49.235.239.71:3306/mytrain", "admin", "j4xRG.mod53F");
         } catch (ClassNotFoundException | SQLException e) {
