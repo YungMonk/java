@@ -13,9 +13,6 @@ import java.util.List;
  * @Version V1.0
  **/
 public class Main {
-    public Main() {
-    }
-
     public static void main(String[] args) throws SQLException {
         List<User> list = new ArrayList<User>(){{
             add(new User("王五", 1300));
