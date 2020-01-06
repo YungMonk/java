@@ -1,6 +1,6 @@
 package dao;
 
-import driver.lib.MysqlManager;
+import lib.MysqlManager;
 
 import java.sql.SQLException;
 import java.sql.Statement;

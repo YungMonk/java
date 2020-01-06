@@ -1,6 +1,5 @@
-package Test;
+import lib.MysqlManager;
 
-import driver.lib.MysqlManager;
 import java.sql.Connection;
 
 /**
