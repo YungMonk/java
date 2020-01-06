@@ -17,9 +17,10 @@ public class Main {
     }
 
     public static void main(String[] args) throws SQLException {
-        List<User> list = new ArrayList<>();
-        list.add(new User("王五", 1300));
-        list.add(new User("朱六", 1200));
+        List<User> list = new ArrayList<User>(){{
+            add(new User("王五", 1300));
+            add(new User("朱六", 1200));
+        }};
         System.out.println(User.addUser(list));
 
         MysqlManager.close();

@@ -3,8 +3,8 @@ package dao;
 import lib.MysqlManager;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.List;
 
 /**
@@ -27,11 +27,14 @@ public class User {
     public static int addUser(List<User> users) throws SQLException {
         int result = 0;
 
-        Connection conn = MysqlManager.getConnection();
-        Statement stt = conn.createStatement();
+        PreparedStatement stt = MysqlManager.getConnection().prepareStatement(
+                "INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES (?,?)"
+        );
 
         for (User user : users) {
-            stt.executeUpdate("INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES ('"+user.account+"', "+user.balance+") ");
+            stt.setString(1,user.account);
+            stt.setFloat(2, user.balance);
+            result = stt.executeUpdate();
         }
 
         return result;
