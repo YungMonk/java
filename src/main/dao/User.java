@@ -2,6 +2,7 @@ package dao;
 
 import lib.MysqlManager;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
@@ -18,18 +19,19 @@ public class User {
     public String account;
     public float balance;
 
-    public int addUser(List<User> users) {
+    public User(String account, float balance){
+        this.account = account;
+        this.balance = balance;
+    }
+
+    public static int addUser(List<User> users) throws SQLException {
         int result = 0;
 
-        try {
-            Statement statement = MysqlManager.getConnection().createStatement();
-            for (User user : users) {
-                result = MysqlManager.JDBCTemplate().update("INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES (?, ?) ", account, balance);
-            }
-        } catch (SQLException e) {
-            if (e.getMessage().contains("PRIMARY")) {
-                System.err.println("主键重复");
-            }
+        Connection conn = MysqlManager.getConnection();
+        Statement stt = conn.createStatement();
+
+        for (User user : users) {
+            stt.executeUpdate("INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES ('"+user.account+"', "+user.balance+") ");
         }
 
         return result;

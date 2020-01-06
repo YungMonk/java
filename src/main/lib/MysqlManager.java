@@ -1,7 +1,12 @@
 package lib;
 
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DataSourceUtils;
+import org.springframework.jdbc.datasource.SimpleDriverDataSource;
+import org.springframework.jdbc.datasource.SingleConnectionDataSource;
 
+import javax.sql.DataSource;
+import javax.xml.crypto.Data;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -19,7 +24,6 @@ public class MysqlManager {
      * 单例变量
      */
     private static Connection mConnect;
-    private static JdbcTemplate jdbcTemplate;
 
     /*
      * 创建单例 DB 链接
@@ -44,10 +48,6 @@ public class MysqlManager {
      **/
     public static Connection getConnection() {
         return mConnect;
-    }
-
-    public static JdbcTemplate JDBCTemplate() {
-        return jdbcTemplate;
     }
 
     /**

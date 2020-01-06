@@ -1,6 +1,9 @@
+import dao.User;
 import lib.MysqlManager;
 
-import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @ClassName Main
@@ -13,9 +16,12 @@ public class Main {
     public Main() {
     }
 
-    public static void main(String[] args) {
-        Connection conn = MysqlManager.getConnection();
-        System.out.println(conn);
+    public static void main(String[] args) throws SQLException {
+        List<User> list = new ArrayList<>();
+        list.add(new User("王五", 1300));
+        list.add(new User("朱六", 1200));
+        System.out.println(User.addUser(list));
+
         MysqlManager.close();
     }
 }
