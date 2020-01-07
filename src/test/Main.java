@@ -1,5 +1,6 @@
 import dao.User;
 import lib.MysqlManager;
+import model.UserBean;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -19,6 +20,8 @@ public class Main {
             add(new User("朱六", 1200));
         }};
         System.out.println(User.addUser(list));
+
+        UserBean.jdbcTem();
 
         MysqlManager.close();
     }
