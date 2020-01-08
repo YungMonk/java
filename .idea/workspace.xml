@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e45fd63-d3ee-4f59-b0a4-075b9cf71123" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="javapro" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files (x86)\Java\jar" />
+        <option name="mavenHome" value="D:/Program Files (x86)/Apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files (x86)\Apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W3kj51G9KcEVXP9IHHp7mpfkTM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/classes" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2801724" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\JavaPro\target\classes" />
+      <recent name="D:\Workspace\javapro\target\classes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\JavaPro\src\main\java" />
+      <recent name="D:\Development\JavaPro\src\main\resources" />
+      <recent name="D:\Workspace\javapro\src\main\config" />
+      <recent name="D:\Workspace\javapro\src\main\assembly" />
+      <recent name="D:\Workspace\javapro\target\classes\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Index">
+    <configuration name="Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Index" />
+      <module name="Position" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Position" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.Main" />
+      <module name="position" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Index" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自动化打包" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动化打包" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="665" y="213" width="609" height="684" key="#Index" timestamp="1578463845414">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="665" y="213" width="609" height="684" key="#Index/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578463845414" />
+    <state x="552" y="214" key="#Inspections" timestamp="1578474819659">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="214" key="#Inspections/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578474819659" />
+    <state x="414" y="210" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578465130312">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="414" y="210" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578465130312" />
+    <state x="740" y="260" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578463981915">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="740" y="260" key="#com.intellij.ide.macro.MacrosDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578463981915" />
+    <state x="753" y="445" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578459067469">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="753" y="445" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578459067469" />
+    <state x="675" y="471" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578447342147">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="675" y="471" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578447342147" />
+    <state x="789" y="405" width="341" height="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578455191767">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="789" y="405" width="341" height="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578455191767" />
+    <state x="552" y="214" key="#项目结构" timestamp="1578395999762">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="214" key="#项目结构/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578395999762" />
+    <state x="506" y="167" key="CommitChangelistDialog2" timestamp="1578482116071">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="506" y="167" key="CommitChangelistDialog2/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482116071" />
+    <state x="839" y="439" key="FileChooserDialogImpl" timestamp="1578472948839">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="839" y="439" key="FileChooserDialogImpl/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578472948839" />
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1578482192812">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192812" />
+    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1578482192811">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.center/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192811" />
+    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1578482192811">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.left/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192811" />
+    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1578482192812">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.right/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192812" />
+    <state x="490" y="210" key="Maven.ArtifactSearchDialog" timestamp="1578453664862">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="490" y="210" key="Maven.ArtifactSearchDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578453664862" />
+    <state x="776" y="180" key="RollbackChangesDialog" timestamp="1578462973504">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="776" y="180" key="RollbackChangesDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578462973504" />
+    <state x="432" y="238" width="998" height="714" key="SettingsEditor" timestamp="1578473079003">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="432" y="238" width="998" height="714" key="SettingsEditor/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578473079003" />
+    <state width="251" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1578476815331">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="251" height="198" key="ShowFilterAction_Filter_Popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578476815331" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1578482242548">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482242548" />
+    <state x="634" y="292" width="652" height="526" key="find.popup" timestamp="1578460581394">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="634" y="292" width="652" height="526" key="find.popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578460581394" />
+    <state x="624" y="134" key="new project wizard" timestamp="1578462605911">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="624" y="134" key="new project wizard/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578462605911" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1578476815286">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578476815286" />
+  </component>
+</project>
