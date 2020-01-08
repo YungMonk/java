@@ -1,6 +1,6 @@
+import lib.MysqlManager;
 import model.User;
 import model.UserBean;
-import lib.MysqlManager;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import java.util.List;
  **/
 public class Main {
     public static void main(String[] args) throws SQLException {
-        List<User> list = new ArrayList<User>(){{
+        List<User> list = new ArrayList<User>() {{
             add(new User("王五", 1300));
             add(new User("朱六", 1200));
         }};
