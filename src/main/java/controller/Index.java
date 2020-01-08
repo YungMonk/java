@@ -1,9 +1,9 @@
 package controller;
 
-import dao.User;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import lib.MysqlManager;
+import model.User;
 import model.UserBean;
 
 import java.sql.SQLException;
@@ -18,7 +18,7 @@ public class Index extends Application {
 
     @Override
     public void start(Stage primaryStage) throws SQLException {
-        List<User> list = new ArrayList<User>(){{
+        List<User> list = new ArrayList<User>() {{
             add(new User("王五", 1300));
             add(new User("朱六", 1200));
         }};

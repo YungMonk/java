@@ -1,8 +1,7 @@
-package dao;
+package model;
 
 import lib.MysqlManager;
 
-import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
@@ -27,7 +26,7 @@ public class User {
      * @Author: Yung
      * @Date: 2020/1/6
      **/
-    public User(){
+    public User() {
 
     }
 
@@ -39,7 +38,7 @@ public class User {
      * @Author: Yung
      * @Date: 2020/1/6
      **/
-    public User(String account, float balance){
+    public User(String account, float balance) {
         this.account = account;
         this.balance = balance;
     }
@@ -60,7 +59,7 @@ public class User {
         );
 
         for (User user : users) {
-            stt.setString(1,user.account);
+            stt.setString(1, user.account);
             stt.setFloat(2, user.balance);
             result = stt.executeUpdate();
         }

@@ -1,6 +1,6 @@
-import dao.User;
-import lib.MysqlManager;
+import model.User;
 import model.UserBean;
+import lib.MysqlManager;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

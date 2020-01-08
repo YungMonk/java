@@ -1,7 +1,1 @@
-.idea/
-.vscode/
-build
-target/
-.project
-javapro.iml
-out/
+target
