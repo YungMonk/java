@@ -40,8 +40,6 @@
 
     <files>
         <file>
-            <!-- 未设置build.finalName -->
-<!--            <source>target/${project.artifactId}-${project.version}.jar</source>-->
             <!-- 设置build.finalName -->
             <source>target/${project.build.finalName}.jar</source>
             <outputDirectory>.</outputDirectory>
