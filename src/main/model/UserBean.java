@@ -14,7 +14,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 public class UserBean {
     public static void jdbcTem(){
         // 启动IoC容器
-        ApplicationContext ctx=new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext ctx=new ClassPathXmlApplicationContext("config/applicationContext.xml");
         // 获取IoC容器中JdbcTemplate实例
         JdbcTemplate jdbcTemplate=(JdbcTemplate) ctx.getBean("jdbcTemplate");
         String sql="INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES (?,?)";

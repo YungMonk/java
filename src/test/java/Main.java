@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @ClassName Main
+ * @ClassName java.Main
  * @Description: 测试入口
  * @Author Yung
  * @Date 2020/1/3
