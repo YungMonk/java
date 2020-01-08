@@ -144,6 +144,25 @@
 
         <!-- 插件列表 -->
         <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.1</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
             <!-- 指定项目源码的jdk版本，编译后的jdk版本，以及编码 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -156,6 +175,20 @@
                     <target>1.8</target>
                     <!-- 字符集编码 -->
                     <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>controller.Index</mainClass> <!-- 此处为主入口-->
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
 
@@ -202,20 +235,6 @@
                 <!--任何配置是否被传播到子项目 -->
                 <inherited>true</inherited>
 
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <mainClass>controller.Index</mainClass> <!-- 此处为主入口-->
-                        </manifest>
-                    </archive>
-                </configuration>
             </plugin>
         </plugins>
 
