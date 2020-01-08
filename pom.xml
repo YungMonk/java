@@ -194,18 +194,28 @@
                 <!--由于性能原因，只有在真需要下载时，该元素才被设置成true。 -->
                 <extensions>false</extensions>
 
-                <!--项目引入插件所需要的额外依赖 -->
-<!--                <dependencies>-->
-<!--                    <dependency>...</dependency>-->
-<!--                </dependencies>-->
-
                 <!--任何配置是否被传播到子项目 -->
                 <inherited>true</inherited>
 
             </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>controller.Index</mainClass> <!-- 此处为主入口-->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
 
-        <!--项目的一系列构建扩展,它们是一系列build过程中要使用的产品，会包含在running bulid‘s classpath里面 -->
+        <!--项目的一系列构建扩展,它们是一系列build过程中要使用的产品，会包含在running bulid's classpath里面 -->
         <!--他们可以开启extensions，也可以通过提供条件来激活plugins -->
         <!--简单来讲，extensions是在build过程被激活的产品 -->
         <extensions>
