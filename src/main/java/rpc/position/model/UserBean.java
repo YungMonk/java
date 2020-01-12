@@ -1,4 +1,4 @@
-package model;
+package rpc.position.model;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

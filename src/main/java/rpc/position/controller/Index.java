@@ -1,23 +1,16 @@
-package controller;
+package rpc.position.controller;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-import lib.MysqlManager;
-import model.User;
-import model.UserBean;
+import rpc.position.lib.MysqlManager;
+import rpc.position.model.User;
+import rpc.position.model.UserBean;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Index extends Application {
+public class Index {
 
-    public static void main(String[] args) {
-        launch(args);
-    }
-
-    @Override
-    public void start(Stage primaryStage) throws SQLException {
+    public void dbTestConn() throws SQLException {
         List<User> list = new ArrayList<User>() {{
             add(new User("王五", 1300));
             add(new User("朱六", 1200));

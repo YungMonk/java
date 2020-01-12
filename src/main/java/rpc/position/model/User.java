@@ -1,6 +1,6 @@
-package model;
+package rpc.position.model;
 
-import lib.MysqlManager;
+import rpc.position.lib.MysqlManager;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

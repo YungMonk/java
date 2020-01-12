@@ -1,6 +1,6 @@
-import model.User;
-import model.UserBean;
-import lib.MysqlManager;
+import rpc.position.model.User;
+import rpc.position.model.UserBean;
+import rpc.position.lib.MysqlManager;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package lib;
+package rpc.position.lib;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
