@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e45fd63-d3ee-4f59-b0a4-075b9cf71123" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3e45fd63-d3ee-4f59-b0a4-075b9cf71123" name="默认更改列表" comment="自动化打包">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2801724" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -148,10 +148,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="552" y="214" key="#Inspections/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578474819659" />
-    <state x="414" y="210" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578465130312">
+    <state x="414" y="210" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578484240593">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="414" y="210" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578465130312" />
+    <state x="414" y="210" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578484240593" />
     <state x="740" y="260" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578463981915">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -172,61 +172,69 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="552" y="214" key="#项目结构/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578395999762" />
-    <state x="506" y="167" key="CommitChangelistDialog2" timestamp="1578482116071">
+    <state x="506" y="167" key="CommitChangelistDialog2" timestamp="1578541072091">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="506" y="167" key="CommitChangelistDialog2/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482116071" />
-    <state x="839" y="439" key="FileChooserDialogImpl" timestamp="1578472948839">
+    <state x="506" y="167" key="CommitChangelistDialog2/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578541072091" />
+    <state x="839" y="439" key="FileChooserDialogImpl" timestamp="1578484584092">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="839" y="439" key="FileChooserDialogImpl/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578472948839" />
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1578482192812">
+    <state x="839" y="439" key="FileChooserDialogImpl/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578484584092" />
+    <state width="1921" height="369" key="GridCell.Tab.0.bottom" timestamp="1578542405441">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192812" />
-    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1578482192811">
+    <state width="1921" height="369" key="GridCell.Tab.0.bottom/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
+    <state width="1921" height="369" key="GridCell.Tab.0.center" timestamp="1578542405441">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.center/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192811" />
-    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1578482192811">
+    <state width="1921" height="369" key="GridCell.Tab.0.center/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
+    <state width="1921" height="369" key="GridCell.Tab.0.left" timestamp="1578542405441">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.left/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192811" />
-    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1578482192812">
+    <state width="1921" height="369" key="GridCell.Tab.0.left/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
+    <state width="1921" height="369" key="GridCell.Tab.0.right" timestamp="1578542405441">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.right/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482192812" />
+    <state width="1921" height="369" key="GridCell.Tab.0.right/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
     <state x="490" y="210" key="Maven.ArtifactSearchDialog" timestamp="1578453664862">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="490" y="210" key="Maven.ArtifactSearchDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578453664862" />
-    <state x="776" y="180" key="RollbackChangesDialog" timestamp="1578462973504">
+    <state x="776" y="180" key="RollbackChangesDialog" timestamp="1578541069670">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="776" y="180" key="RollbackChangesDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578462973504" />
-    <state x="432" y="238" width="998" height="714" key="SettingsEditor" timestamp="1578473079003">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="776" y="180" key="RollbackChangesDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578541069670" />
+    <state x="1939" y="364" width="998" height="714" key="SettingsEditor" timestamp="1578534244963">
+      <screen x="1920" y="-222" width="1080" height="1890" />
     </state>
-    <state x="432" y="238" width="998" height="714" key="SettingsEditor/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578473079003" />
+    <state x="1939" y="364" width="998" height="714" key="SettingsEditor/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578534244963" />
     <state width="251" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1578476815331">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="251" height="198" key="ShowFilterAction_Filter_Popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578476815331" />
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1578482242548">
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1578484527298">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578482242548" />
-    <state x="634" y="292" width="652" height="526" key="find.popup" timestamp="1578460581394">
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578484527298" />
+    <state x="634" y="292" width="652" height="526" key="find.popup" timestamp="1578483750106">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="634" y="292" width="652" height="526" key="find.popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578460581394" />
+    <state x="634" y="292" width="652" height="526" key="find.popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578483750106" />
     <state x="624" y="134" key="new project wizard" timestamp="1578462605911">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="624" y="134" key="new project wizard/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578462605911" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1578476815286">
+    <state x="2113" y="580" width="650" height="961" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1578484586267">
+      <screen x="1920" y="-222" width="1080" height="1890" />
+    </state>
+    <state x="2113" y="580" width="650" height="961" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578484586267" />
+    <state x="621" y="317" width="700" height="530" key="recent.locations.popup" timestamp="1578484088594">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578476815286" />
+    <state x="621" y="317" width="700" height="530" key="recent.locations.popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578484088594" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1578484357932">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578484357932" />
   </component>
 </project>
