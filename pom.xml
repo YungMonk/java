@@ -71,6 +71,11 @@
         </dependency>
     </dependencies>
 
+    <scm>
+        <url>https://github.com/YungMonk/java</url>
+        <connection>scm:git:https://github.com/YungMonk/java.git</connection>
+    </scm>
+
     <!-- 常用于给构件的行为提供相应的支持 -->
     <build>
         <!-- 构建产生的文件名，默认值是${artifactId}-${version} -->
@@ -145,7 +150,7 @@
                 <artifactId>maven-scm-plugin</artifactId>
                 <version>1.11.2</version>
                 <configuration>
-                    <connectionUrl>scm:https://github.com/YungMonk/java.git</connectionUrl>
+                    <connectionType>connection</connectionType>
                 </configuration>
             </plugin>
         </plugins>

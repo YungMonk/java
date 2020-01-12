@@ -53,19 +53,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="java" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Development\JavaPro\target\classes" />
-      <recent name="D:\Workspace\javapro\target\classes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development\JavaPro\src\main\java" />
       <recent name="D:\Development\JavaPro\src\main\resources" />
       <recent name="D:\Workspace\javapro\src\main\config" />
       <recent name="D:\Workspace\javapro\src\main\assembly" />
       <recent name="D:\Workspace\javapro\target\classes\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\JavaPro\target\classes" />
+      <recent name="D:\Workspace\javapro\target\classes" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Index">
@@ -135,6 +135,17 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="自动化打包" />
     <option name="LAST_COMMIT_MESSAGE" value="自动化打包" />
@@ -180,22 +191,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="839" y="439" key="FileChooserDialogImpl/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578484584092" />
-    <state width="1921" height="369" key="GridCell.Tab.0.bottom" timestamp="1578542405441">
+    <state width="1899" height="256" key="GridCell.Tab.0.bottom" timestamp="1578794782384">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1921" height="369" key="GridCell.Tab.0.bottom/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
-    <state width="1921" height="369" key="GridCell.Tab.0.center" timestamp="1578542405441">
+    <state width="1899" height="256" key="GridCell.Tab.0.bottom/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578794782384" />
+    <state width="1899" height="256" key="GridCell.Tab.0.center" timestamp="1578794782384">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1921" height="369" key="GridCell.Tab.0.center/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
-    <state width="1921" height="369" key="GridCell.Tab.0.left" timestamp="1578542405441">
+    <state width="1899" height="256" key="GridCell.Tab.0.center/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578794782384" />
+    <state width="1899" height="256" key="GridCell.Tab.0.left" timestamp="1578794782384">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1921" height="369" key="GridCell.Tab.0.left/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
-    <state width="1921" height="369" key="GridCell.Tab.0.right" timestamp="1578542405441">
+    <state width="1899" height="256" key="GridCell.Tab.0.left/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578794782384" />
+    <state width="1899" height="256" key="GridCell.Tab.0.right" timestamp="1578794782384">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1921" height="369" key="GridCell.Tab.0.right/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578542405441" />
+    <state width="1899" height="256" key="GridCell.Tab.0.right/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578794782384" />
     <state x="490" y="210" key="Maven.ArtifactSearchDialog" timestamp="1578453664862">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -204,10 +215,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="776" y="180" key="RollbackChangesDialog/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578541069670" />
-    <state x="1939" y="364" width="998" height="714" key="SettingsEditor" timestamp="1578534244963">
-      <screen x="1920" y="-222" width="1080" height="1890" />
+    <state x="296" y="252" width="998" height="714" key="SettingsEditor" timestamp="1578794465064">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1939" y="364" width="998" height="714" key="SettingsEditor/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578534244963" />
+    <state x="296" y="252" width="998" height="714" key="SettingsEditor/1920.-222.1080.1890/0.30.1920.1050@0.30.1920.1050" timestamp="1578794465064" />
     <state width="251" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1578476815331">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
