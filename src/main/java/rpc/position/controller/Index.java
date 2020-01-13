@@ -1,16 +1,25 @@
 package rpc.position.controller;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import rpc.position.lib.MysqlManager;
 import rpc.position.model.User;
 import rpc.position.model.UserBean;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+@RestController
+@RequestMapping("/index")
 public class Index {
 
-    public void dbTestConn() throws SQLException {
+    @RequestMapping("/index")
+    @ResponseBody
+    public Map<String, String> dbTestConn() throws SQLException {
         List<User> list = new ArrayList<User>() {{
             add(new User("王五", 1300));
             add(new User("朱六", 1200));
@@ -20,5 +29,10 @@ public class Index {
         UserBean.jdbcTem();
 
         MysqlManager.close();
+
+        HashMap<String, String> res = new HashMap<String, String>();
+        res.put("result", "add user success.");
+
+        return res;
     }
 }
