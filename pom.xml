@@ -137,6 +137,7 @@
 
         <!-- 插件列表 -->
         <plugins>
+            <!-- 指定项目源码的jdk版本，编译后的jdk版本，以及编码 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -144,14 +145,17 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <encoding>utf-8</encoding>
                 </configuration>
             </plugin>
 
+            <!-- 将springboot的应用程序打包成fat jar的插件 -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
+            <!-- 可以将构建出的构件直接部署到POM配置的远程库中 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
@@ -161,6 +165,7 @@
                 </configuration>
             </plugin>
 
+            <!-- 软件配置管理，支持 GIT、SVN、CVS-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-plugin</artifactId>
