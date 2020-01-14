@@ -1,9 +1,8 @@
-package rpc.position;
+package com.ifchange.rpc.position;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Arrays;
 
@@ -20,7 +19,7 @@ public class Application {
         ApplicationContext ctx = SpringApplication.run(Application.class, args);
         String[] beanNames = ctx.getBeanDefinitionNames();
         Arrays.sort(beanNames);
-        for(String beanName : beanNames){
+        for (String beanName : beanNames) {
             System.out.println(beanName);
         }
     }

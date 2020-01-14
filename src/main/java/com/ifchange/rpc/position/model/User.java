@@ -1,6 +1,6 @@
-package rpc.position.model;
+package com.ifchange.rpc.position.model;
 
-import rpc.position.lib.MysqlManager;
+import com.ifchange.rpc.position.lib.MysqlManager;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

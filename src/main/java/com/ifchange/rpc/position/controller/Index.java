@@ -1,11 +1,11 @@
-package rpc.position.controller;
+package com.ifchange.rpc.position.controller;
 
+import com.ifchange.rpc.position.model.UserBean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import rpc.position.lib.MysqlManager;
-import rpc.position.model.User;
-import rpc.position.model.UserBean;
+import com.ifchange.rpc.position.lib.MysqlManager;
+import com.ifchange.rpc.position.model.User;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

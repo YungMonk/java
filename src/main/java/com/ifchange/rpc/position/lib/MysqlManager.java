@@ -1,4 +1,4 @@
-package rpc.position.lib;
+package com.ifchange.rpc.position.lib;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
