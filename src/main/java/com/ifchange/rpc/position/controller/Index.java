@@ -1,11 +1,11 @@
 package com.ifchange.rpc.position.controller;
 
+import com.ifchange.rpc.position.lib.MysqlManager;
+import com.ifchange.rpc.position.model.User;
 import com.ifchange.rpc.position.model.UserBean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.ifchange.rpc.position.lib.MysqlManager;
-import com.ifchange.rpc.position.model.User;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class Index {
 
         MysqlManager.close();
 
-        HashMap<String, String> res = new HashMap<String, String>();
+        HashMap<String, String> res = new HashMap<>();
         res.put("result", "add user success.");
 
         return res;
