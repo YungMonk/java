@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 /**
  * @ClassName MysqlManager
- * @Description: TODO
+ * @Description: 数据库链接
  * @Author Yung
  * @Date 2020/1/3
  * @Version V1.0

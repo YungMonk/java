@@ -6,7 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
  * @ClassName UserBean
- * @Description: TODO
+ * @Description: 用户操作
  * @Author Yung
  * @Date 2020/1/6
  * @Version V1.0
