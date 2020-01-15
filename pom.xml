@@ -53,11 +53,6 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.springframework</groupId>-->
-<!--            <artifactId>spring-jdbc</artifactId>-->
-<!--        </dependency>-->
-
         <!--mysql -->
         <dependency>
             <!-- 指定坐标确定依赖项的位置 -->
@@ -69,13 +64,6 @@
             <!-- 这个标签只有true和false两个值，是用来设置依赖是否可选 -->
             <optional>false</optional>
         </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>com.mchange</groupId>-->
-<!--            <artifactId>c3p0</artifactId>-->
-<!--            <version>0.9.5.5</version>-->
-<!--        </dependency>-->
-
     </dependencies>
 
     <scm>
