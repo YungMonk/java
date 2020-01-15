@@ -28,10 +28,6 @@ public class Main {
             add(new User("朱六", 1200));
         }};
         System.out.println(User.addUser(list));
-
-        UserBean ub = new UserBean();
-        ub.jdbcTem();
-
         MysqlManager.close();
     }
 }
