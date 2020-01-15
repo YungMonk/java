@@ -55,7 +55,7 @@ public class User {
         int result = 0;
 
         PreparedStatement stt = MysqlManager.getConnection().prepareStatement(
-                "INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES (?,?)"
+            "INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES (?,?)"
         );
 
         for (User user : users) {

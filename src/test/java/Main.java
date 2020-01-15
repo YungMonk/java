@@ -29,7 +29,8 @@ public class Main {
         }};
         System.out.println(User.addUser(list));
 
-        UserBean.jdbcTem();
+        UserBean ub = new UserBean();
+        ub.jdbcTem();
 
         MysqlManager.close();
     }

@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://49.235.239.71:3306/mytrain
+    username: admin
+    password: j4xRG.mod53F
+    driver-class-name: com.mysql.cj.jdbc.Driver
