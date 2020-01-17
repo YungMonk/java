@@ -1,5 +1,6 @@
 package com.ifchange.rpc.position.controller;
 
+import com.ifchange.rpc.position.json.ApiResult;
 import com.ifchange.rpc.position.model.User;
 import com.ifchange.rpc.position.model.UserBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,7 @@ public class Index {
     @Autowired
     private UserBean userBean;
 
-    @RequestMapping(value ="/index", method = RequestMethod.GET)
+    @RequestMapping(value = "/index", method = RequestMethod.GET)
     @ResponseBody
     public Map<?, ?> index() {
         List<User> list = new ArrayList<User>() {{
@@ -31,5 +32,13 @@ public class Index {
         res.put("result", userBean.addUser(list));
 
         return res;
+    }
+
+    @RequestMapping(value = "/hello")
+    public ApiResult hello(Long id) {
+        return new ApiResult().success(new ArrayList<User>() {{
+            add(new User("Jon", 1300));
+            add(new User("Tom", 1200));
+        }});
     }
 }
