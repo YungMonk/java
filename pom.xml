@@ -43,10 +43,10 @@
         </dependency>
 
         <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -63,6 +63,18 @@
             <scope>runtime</scope>
             <!-- 这个标签只有true和false两个值，是用来设置依赖是否可选 -->
             <optional>false</optional>
+        </dependency>
+
+        <!-- Swagger2强大 RESTFUL API文档 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
         </dependency>
     </dependencies>
 
@@ -95,7 +107,7 @@
             </resource>
         </resources>
         <!-- 项目源码目录，当构建项目的时候，构建系统会编译目录里的源码。该路径是相对于pom.xml的相对路径 -->
-        <sourceDirectory>${basedir}/src/main/java</sourceDirectory >
+        <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
         <!-- 项目脚本源码目录，该目录和源码目录不同， 绝大多数情况下，该目录下的内容会被拷贝到输出目录(因为脚本是被解释的，而不是被编译的) -->
         <scriptSourceDirectory>${basedir}/src/scripts</scriptSourceDirectory>
 
@@ -106,7 +118,7 @@
             </testResource>
         </testResources>
         <!-- 项目单元测试使用的源码目录，当测试项目的时候，构建系统会编译目录里的源码。该路径是相对于pom.xml的相对路径 -->
-        <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory >
+        <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
 
         <!-- 构建产生的所有文件存放的目录,默认为${basedir}/target，即项目根目录下的target -->
         <directory>${basedir}/target</directory>

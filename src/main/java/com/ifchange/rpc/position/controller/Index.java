@@ -3,6 +3,8 @@ package com.ifchange.rpc.position.controller;
 import com.ifchange.rpc.position.json.ApiResult;
 import com.ifchange.rpc.position.model.User;
 import com.ifchange.rpc.position.model.UserBean;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -34,7 +36,10 @@ public class Index {
         return res;
     }
 
+    @ApiOperation(value = "问候", notes = "入口访问")
+    @ApiImplicitParam(name = "id", value = "用户id", required = false, dataType = "Long")
     @RequestMapping(value = "/hello")
+    @ResponseBody
     public ApiResult hello(Long id) {
         return new ApiResult().success(new ArrayList<User>() {{
             add(new User("Jon", 1300));
