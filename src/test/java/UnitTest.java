@@ -1,5 +1,5 @@
 import com.ifchange.rpc.position.Application;
-import com.ifchange.rpc.position.lib.MysqlManager;
+import com.ifchange.rpc.position.util.Mysql;
 import com.ifchange.rpc.position.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -44,6 +44,6 @@ public class UnitTest {
             add(new User("朱六", 1200));
         }};
         System.out.println(User.addUser(list));
-        MysqlManager.close();
+        Mysql.close();
     }
 }

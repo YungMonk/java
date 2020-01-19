@@ -1,4 +1,4 @@
-package com.ifchange.rpc.position.lib;
+package com.ifchange.rpc.position.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ import java.sql.Statement;
  * @Date 2020/1/3
  * @Version V1.0
  **/
-public class MysqlManager {
+public class Mysql {
     /*
      * 单例变量
      */

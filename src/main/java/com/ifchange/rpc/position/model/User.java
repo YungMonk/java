@@ -1,6 +1,6 @@
 package com.ifchange.rpc.position.model;
 
-import com.ifchange.rpc.position.lib.MysqlManager;
+import com.ifchange.rpc.position.util.Mysql;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -54,7 +54,7 @@ public class User {
     public static int addUser(List<User> users) throws SQLException {
         int result = 0;
 
-        PreparedStatement stt = MysqlManager.getConnection().prepareStatement(
+        PreparedStatement stt = Mysql.getConnection().prepareStatement(
             "INSERT INTO `mytrain`.`t_account`(`account`, `balance`) VALUES (?,?)"
         );
 
