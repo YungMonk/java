@@ -10,13 +10,13 @@ import java.util.Date;
 
 /**
  * @ClassName Crontab
- * @Description: 动态修改定时任务cron参数
+ * @Description: 动态定时任务：动态修改定时任务 cron 参数
  * @Author Yung
  * @Date 2020/1/17
  * @Version V1.0
  **/
 @Component
-public class Crontab implements SchedulingConfigurer {
+public class DynamicCrontabTask implements SchedulingConfigurer {
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
     private static final String DEFAULT_CRON = "0/5 * * * * ?";
@@ -29,7 +29,7 @@ public class Crontab implements SchedulingConfigurer {
                 // 1.添加任务内容(Runnable)
                 () -> {
                     if (!cron.equals(DEFAULT_CRON)) {
-                        System.out.println("");
+                        System.out.println("定时任务");
                     }
 
                     // 定时任务的业务逻辑
