@@ -29,7 +29,7 @@ public class StaticCrontabTask {
      * @Date: 2020/1/19
      **/
     @Async
-    @Scheduled(fixedDelay = 1000*5)  // 间隔1*5秒
+    @Scheduled(fixedDelay = 1000*10 )  // 间隔1*10秒
     public void first() throws InterruptedException {
         System.out.println("第一个定时任务开始 : " + LocalDateTime.now().toLocalTime() + "\r\n线程 : " + Thread.currentThread().getName());
         System.out.println("需要执行的定时任务");
@@ -45,7 +45,7 @@ public class StaticCrontabTask {
      * @Date: 2020/1/19
      **/
     @Async
-    @Scheduled(fixedDelay = 2000*5) // 间隔2*5秒
+    @Scheduled(cron = "0 0 * * * ?") // 每小时一次
     public void second() {
         System.out.println("第二个定时任务开始 : " + LocalDateTime.now().toLocalTime() + "\r\n线程 : " + Thread.currentThread().getName());
         System.out.println("需要执行的定时任务");

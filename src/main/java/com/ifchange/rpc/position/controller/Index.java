@@ -3,6 +3,7 @@ package com.ifchange.rpc.position.controller;
 import com.ifchange.rpc.position.json.ApiResult;
 import com.ifchange.rpc.position.model.User;
 import com.ifchange.rpc.position.model.UserBean;
+import com.ifchange.rpc.position.util.MRedis;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,9 @@ import java.util.Map;
 public class Index {
     @Autowired
     private UserBean userBean;
+
+    @Autowired
+    private MRedis myRedis;
 
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     @ResponseBody
@@ -41,6 +45,8 @@ public class Index {
     @RequestMapping(value = "/hello")
     @ResponseBody
     public ApiResult hello(Long id) {
+        myRedis.set("sys:test_set_func", "isOK");
+        myRedis.set("sys:dynamic_task", "0 0 * * * ?");
         return new ApiResult().success(new ArrayList<User>() {{
             add(new User("Jon", 1300));
             add(new User("Tom", 1200));
