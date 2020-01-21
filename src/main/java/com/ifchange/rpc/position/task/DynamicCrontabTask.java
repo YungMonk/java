@@ -1,11 +1,17 @@
 package com.ifchange.rpc.position.task;
 
+import com.ifchange.rpc.position.exception.CommonExceptionAdvice;
+import com.ifchange.rpc.position.util.MRedis;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.Trigger;
 import org.springframework.scheduling.TriggerContext;
 import org.springframework.scheduling.annotation.SchedulingConfigurer;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 import org.springframework.scheduling.support.CronTrigger;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -20,10 +26,13 @@ import java.util.Date;
 @Component
 public class DynamicCrontabTask implements SchedulingConfigurer {
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-
     private static final String DEFAULT_CRON = "0/5 * * * * ?";
 
+    private static Logger logger = LoggerFactory.getLogger(CommonExceptionAdvice.class);
     private static String cron;
+
+    @Autowired
+    private MRedis mRedis;
 
     @Override
     public void configureTasks(ScheduledTaskRegistrar taskRegistrar) {
@@ -77,6 +86,20 @@ public class DynamicCrontabTask implements SchedulingConfigurer {
      * @Date: 2020/1/19
      **/
     public String getCron() {
-        return DEFAULT_CRON;
+        String nCron = mRedis.get("sys:dynamic_task");
+
+        if (StringUtils.isEmpty(nCron)) {
+            logger.warn("The config cron expression is empty");
+            nCron = DEFAULT_CRON;
+        }
+
+        System.out.println(nCron);
+
+        if (!nCron.equals(cron)) {
+            logger.info("cron has been changed to:" + nCron + "");
+            cron = nCron;
+        }
+
+        return cron;
     }
 }

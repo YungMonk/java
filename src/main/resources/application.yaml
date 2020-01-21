@@ -4,7 +4,19 @@ spring:
     username: admin
     password: j4xRG.mod53F
     driver-class-name: com.mysql.cj.jdbc.Driver
-
+  redis:
+    cluster:
+      nodes:
+        - 127.0.0.1:7001
+        - 127.0.0.1:7002
+        - 127.0.0.1:7003
+        - 127.0.0.1:7004
+        - 127.0.0.1:7005
+        - 127.0.0.1:7006
+      connectionTimeout: 6000
+      soTimeout: 6000
+      maxAttempts: 5
+      password:
 
 server:
   port: 81
