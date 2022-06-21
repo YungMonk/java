@@ -63,7 +63,7 @@
             <!-- 指定坐标确定依赖项的位置 -->
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.18</version>
+            <version>8.0.28</version>
             <!-- 依赖包的依赖范围 compile,provided,runtime,test,system-->
             <scope>runtime</scope>
             <!-- 这个标签只有true和false两个值，是用来设置依赖是否可选 -->
